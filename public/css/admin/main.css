@@ -1,0 +1,29 @@
+.input__range__voncher{
+    width: 50%;
+}
+.input__value__voncher{
+    background-color: transparent;
+    border: none;
+    padding-left: 5%;
+    width: 10%;
+}
+.gallery__component{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.gallery__img img{
+    width: 100%;
+    height: 100%;
+}
+.gallery__img{
+    height: 100%;
+    width: 100%;
+}
+.gallery__checkbox{
+    display: none;
+}
+.gallery__checkbox:checked + .gallery__img{
+    border: 2px solid black;
+}
+

@@ -1,0 +1,148 @@
+footer {
+    margin-top: 40px;
+}
+.footer__information{
+    font-size: 14px;
+    background-color: #f4f2ef;
+}
+
+.footer__information .triumph_global {
+    padding: 5px;
+    width: 100%;
+}
+.footer__information i {
+    font-size: 25px;
+}
+
+.footer__information a {
+    color: #494e53;
+    text-decoration: none;
+    padding: 5px 5px 5px 0;
+}
+
+.footer__information a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__news_letter {
+    font-size: 14px;
+    text-align: center;
+    background-color: #fbfaf8;
+    padding: 25px 0;
+}
+
+.footer__news_letter__title {
+    padding: 10px 0;
+}
+
+.footer__news_letter__form {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__news_letter__form__input {
+    width: 55%;
+}
+
+.footer__news_letter__form__input input {
+    outline: none;
+    width: 90%;
+    padding: 7px 0 ;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    /* width: 55%; */
+}
+
+.footer__news_letter__form__button button{
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.footer__information__item {
+    padding-top: 40px;
+}
+
+.footer__information__item__title {
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.footer__information {
+    padding-bottom: 40px;
+}
+
+.footer__information__item__logo_DHL {
+    width: 140px;
+    height: 30px;
+}
+
+.footer__information__item__logo_DHL img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__information__item__select_triumph_global label {
+    width: 100%;
+    border: 1px solid #494e53;
+    padding: 5px 10px 0;
+    background-color: white;
+}
+
+.footer__information__item__select_triumph_global .footer__information__item__select_triumph_global__icon {
+    float: right;
+}
+
+.footer__information__item__select_triumph_global__show{
+    border: 1px solid #cfd1d0;
+    z-index: 2;
+    max-width: 960px;
+    display: none;
+    text-align: left;
+    background-color: #fff;
+    position: absolute;
+    bottom: 39px;
+    left: -235%;
+    width: 328%;
+    right: 0;
+}
+
+.footer__information__item__select_triumph_global__show__title {
+    padding: 40px 20px 15px 20px;
+}
+
+.footer__information__item__select_triumph_global__show__column {
+    column-count: 4;
+    -webkit-column-count: 4;
+    padding: 0 20px 20px 20px;
+}
+
+.footer__information__item__select_triumph_global__show__column ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#show_hiden_select_triumph_global {
+    display: none;
+}
+
+#show_hiden_select_triumph_global:checked ~ .footer__information__item__select_triumph_global__show {
+    display: block;
+}
+
+.footer__copy_right {
+    text-align: center ;
+    padding-bottom: 60px;
+    background-color: #f4f2ef;
+}
+
+.footer__copy_right .footer__copy_right__content {
+    border-bottom: 1px solid #cfd1d0;
+    padding: 15px;
+    font-size: 12px;
+}

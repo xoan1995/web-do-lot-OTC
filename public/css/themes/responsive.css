@@ -1,0 +1,15 @@
+@media (max-width: 770px)
+{
+    .product__data__toggle,.custom__carousel__card__thong__tin__san__pham{
+        display: none;
+    }
+    .nav__mobile{
+        display: block;
+    }
+    .productshow__indicator {
+        display: none;
+    }
+    .header__menu{
+        display: none;
+    }
+}

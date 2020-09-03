@@ -1,0 +1,153 @@
+/* css style */
+.header__mobile {
+    background-color: var(--primary-color);
+    padding-bottom: 1%;
+}
+
+.header__mobile .header__mobile__logo {
+    width: 100%;
+}
+
+.header__mobile__logo a {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.header__mobile__input {
+    margin-bottom: 1rem;
+}
+
+.header__mobile__input .header__mid__form {
+    float: none;
+    width: 80%;
+    margin: auto;
+}
+
+.header__mobile__input input.header__mid__form__input {
+    font-size: 2vw;
+    padding: 2%;
+}
+
+.header__mobile .header__top__text {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.header__mobile__flags {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    transition: all .5s ease;
+    z-index: 1000;
+}
+
+.sidebar .header__mobile__logo {
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 3%;
+}
+
+.sidebar .header__mobile__logo a {
+    width: 60%;
+    margin: auto;
+}
+
+.sidebar__list {
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.sidebar__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
+.sidebar__icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+}
+
+.sidebar__link {
+    font-size: 1.8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+#check {
+    display: none;
+    position: absolute;
+}
+
+label #btn,
+label #cancel {
+    position: fixed;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+label #btn {
+    z-index: 1000;
+    left: 20px;
+    top: 10px;
+    font-size: 2.3vw;
+    background-color: var(--secondary-color);
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -40px;
+    top: 10px;
+    font-size: 2.3vw;
+    background-color: var(--secondary-color);
+    padding: 6px 12px;
+    transition: all .5s;
+    opacity: 0;
+    border: 1px solid
+}
+
+#check:checked~.sidebar__wrapper .sidebar {
+    left: 0;
+}
+
+#check:checked~label #btn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancel {
+    left: 90%;
+    opacity: 1;
+}
+
+.sidebar_social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.sidebar_social a {
+    display: block;
+    margin: 0 1rem;
+}
+
+.sidebar__social__img {
+    width: 3rem;
+}
